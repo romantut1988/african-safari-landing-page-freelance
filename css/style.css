@@ -12,8 +12,14 @@ body {
     color: #1F1E1E;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
 
 
 
 
-
+.header__title {
+    font-family: 'PT Serif', serif;
+}
