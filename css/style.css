@@ -1,6 +1,19 @@
 *,
 *::after,
-*::before{
+*::before {
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #1F1E1E;
+}
+
+
+
+
+
 
