@@ -159,3 +159,24 @@ a {
     line-height: 130%;
     color: #fff;
 }
+
+.popular {
+    padding: 100px 0;
+}
+
+.popular__title {
+    margin-bottom: 40px;
+}
+
+.popular__items {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 32px;
+}
+.popular__link {
+    padding: 16px 24px 19px;
+    color:#fff;
+    display: flex;
+    flex-direction: column;
+}
