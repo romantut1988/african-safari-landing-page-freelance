@@ -248,3 +248,14 @@ a {
     color: #c4c4c4;
     text-decoration: underline;
 }
+
+.about__popup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/video-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
