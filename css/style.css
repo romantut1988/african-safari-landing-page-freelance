@@ -259,3 +259,24 @@ a {
     background-size: cover;
 }
 
+.gallery {
+    padding: 50px 0 105px;
+    background-color: #886239;
+    color: #fff;
+}
+
+.gallery__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    padding-right: 160px;
+}
+
+.gallery__link {
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: underline;
+}
+
+

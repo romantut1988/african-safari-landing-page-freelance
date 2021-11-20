@@ -7,4 +7,6 @@ $(function(){
         preloader: false,
         fixedContentPos: false
     });
+
+    $('.gallery__slider').slick();
 });
