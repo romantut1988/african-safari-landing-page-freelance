@@ -400,6 +400,8 @@ a {
 }
 
 .booking__label {
+    display: flex;
+    align-items: center;
     color: #1F1E1E;
     line-height: 130%;
     text-decoration: underline;
@@ -411,8 +413,25 @@ a {
     height: 1px;
     overflow: hidden;
     clip: rect(0 0 0 0);
+    padding-left: 45px;
 }
 
 .booking__checkbox-style {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    border: 2px solid #C4C4C4;
+    border-radius: 2px;
+    margin-left: -45px;
+}
 
+.booking__checkbox:checked + .booking__checkbox-style::before {
+    position: absolute;
+    content: '';
+    width: 16px;
+    height: 16px;
+    background-color: #c4c4c4;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
