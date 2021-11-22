@@ -500,6 +500,11 @@ a {
     .direction__img {
         width: 100%;
     }
+
+    .about__inner {
+        grid-gap: 20px;
+        grid-template-columns: 1fr 2fr;
+    }
 }
 
 @media (max-width: 990px) {
@@ -541,6 +546,17 @@ a {
     }
     .map__iframe {
         height: 300px;
+    }
+
+    .about__inner {
+        grid-gap: 20px;
+        grid-template-columns: 1fr;
+    }
+    .about__popup {
+        min-height: 400px;
+    }
+    .about {
+        padding-bottom: 50px;
     }
 }
 
@@ -643,6 +659,9 @@ a {
     }
 }
 
-
-
+@media (max-width: 340px) {
+    .about__popup {
+        min-height: 280px;
+    }
+}
 
