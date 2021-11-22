@@ -485,10 +485,14 @@ a {
     width: 210px;
 }
 
-.footer__phone {
-}
-
 .footer__mail {
     display: block;
 }
+
+
+@media (max-width: 1200px) {
+    
+}
+
+
 
