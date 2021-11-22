@@ -491,6 +491,14 @@ a {
 }
 
 
+@media (max-width: 1140px) {
+    .direction__inner {
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+    }
+
+}
+
 @media (max-width: 800px) {
     .header__phone span {
         display: none;
@@ -540,6 +548,7 @@ a {
         padding: 10px 0;
         left: 0;
         right: 0;
+        transition: all.3s;
     }
     .menu__list.menu__list--active {
         transform: translateY(0%);
