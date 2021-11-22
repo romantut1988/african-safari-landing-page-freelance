@@ -505,6 +505,13 @@ a {
         grid-gap: 20px;
         grid-template-columns: 1fr 2fr;
     }
+
+    .gallery__item-inner {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .gallery__item-img {
+        width: 100%;
+    }
 }
 
 @media (max-width: 990px) {
@@ -556,6 +563,10 @@ a {
         min-height: 400px;
     }
     .about {
+        padding-bottom: 50px;
+    }
+
+    .gallery {
         padding-bottom: 50px;
     }
 }
@@ -646,6 +657,17 @@ a {
 
     .popular__items {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .gallery__item-inner {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .gallery__title {
+        width: 100%;
+        text-align: left;
+    }
+    .gallery__top {
+        flex-wrap: wrap;
     }
 }
 
