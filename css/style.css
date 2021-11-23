@@ -612,8 +612,8 @@ a {
         text-align: center;
     }
     .footer__info,
-    .footer__address, {
-        margin: 0 auto -25px;
+    .footer__address {
+        margin: 0 auto 25px;
     }
     .footer__contacts {
         margin: 0 auto;
